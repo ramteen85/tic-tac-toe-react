@@ -1,0 +1,117 @@
+.outer-container {
+  height: 100vh;
+  font-family: cursive, arial, helvetica;
+  position: relative;
+}
+
+.backImg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #000000;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  width: 60%;
+  max-width: 30rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.inner-container {
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 2rem !important;
+  color: rgb(216, 187, 21);
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.sub-header {
+  font-size: 1.2rem;
+  color: rgb(172, 172, 14);
+  padding: 0;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.menu-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 365px;
+  margin: auto;
+}
+
+@media screen and (max-width: 450px) {
+  .menu-container {
+    padding: 0;
+    min-width: 260px;
+    max-width: 260px;
+  }
+}
+
+.backbtn {
+  text-decoration: none;
+  display: block;
+  margin: 1rem auto auto auto;
+  color: white;
+  background-color: red;
+  padding: 1rem;
+  width: 8rem;
+}
+
+.backbtn > span {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+
+@media screen and (max-width: 450px) {
+  .backbtn {
+    font-size: 0.8rem;
+  }
+}
+
+.button-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.credits-text {
+  color: rgb(216, 187, 21);
+  text-align: center;
+  font-size: 0.8rem;
+}
