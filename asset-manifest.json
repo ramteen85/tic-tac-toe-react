@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/tic-tac-toe-react/static/css/main.97581f6f.css",
-    "main.js": "/tic-tac-toe-react/static/js/main.47f47831.js",
+    "main.js": "/tic-tac-toe-react/static/js/main.6e2abe3e.js",
     "static/media/cross.png": "/tic-tac-toe-react/static/media/cross.d57d260e447f40331c31.png",
     "static/media/Anton-Regular.ttf": "/tic-tac-toe-react/static/media/Anton-Regular.170b842f9a8cd6150a0d.ttf",
     "static/media/background.jpg": "/tic-tac-toe-react/static/media/background.e44262c8b1b8a18b0e52.jpg",
     "static/media/nought.png": "/tic-tac-toe-react/static/media/nought.2d70be72c72ce02c16c5.png",
     "index.html": "/tic-tac-toe-react/index.html",
     "main.97581f6f.css.map": "/tic-tac-toe-react/static/css/main.97581f6f.css.map",
-    "main.47f47831.js.map": "/tic-tac-toe-react/static/js/main.47f47831.js.map"
+    "main.6e2abe3e.js.map": "/tic-tac-toe-react/static/js/main.6e2abe3e.js.map"
   },
   "entrypoints": [
     "static/css/main.97581f6f.css",
-    "static/js/main.47f47831.js"
+    "static/js/main.6e2abe3e.js"
   ]
 }
